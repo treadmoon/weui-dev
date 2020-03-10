@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "address":"../../components/address/index",
+    "friends":"../../components/friends/index"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="fri-box" bindlongtap="showSelect" data-id="{{friendItem.id}}">
+  <view class="select-box" wx-if="{{friendItem.select.show}}">
+    <checkbox value="{{friendItem.select.value}}" checked="{{friendItem.select.checked}}"/>
+  </view>
+  <view class="main-box">
+    <view class="img-box">
+      <image src="{{friendItem.imgsrc}}"></image>
+    </view>
+    <view class="text-box">
+      {{friendItem.name}}
+    </view>
+  </view>
+</view>
